@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    
+        }
+
+ 
+        header
+        {
+            position: relative;
+        }
+ section 
+ {
+    position: absolute;
+
+display: flex;
+justify-content: center;
+     
+
+/* margin: 200px; */
+
+top: 30%;
+left: 40%;  
+
+ }
+
+
+        .form {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 10px;
+         
+            width: 300px;
+            box-shadow: 0 0 10px ;
+            text-align: center;
+        }
+
+        .img {
+            background-color: silver;
+            background-image:url(man_hat.jpg);
+            background-size: cover;
+            height: 80px;
+            width: 80px;
+            margin: auto;
+            border-radius: 50%;
+
+            margin-top: -80px;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        input
+         {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid white;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+        
+        }
+
+        .rememberme {
+            display: flex;
+            color: black;
+        }
+
+        .rememberme input {
+            margin-right: 10px;
+        }
+
+        .clear
+        {
+            content: " ";
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <img src="girl_hat.jpg" width="100%" >
+    </header>
+    <section>
+        <div class="form">
+            <div class="img"></div>
+            <h2>Contact Form</h2>
+            <form>
+                <label ></label>
+                <input type="email" placeholder="Enter Email">
+                <input type="password" placeholder="Enter Password">
+                <input type="submit" value="Sign In">
+                <div class="rememberme">
+                    <input  type="checkbox">
+                    <label >Remember Me</label>
+                </div>
+            </form>
+        </div>
+        <div class="clear"></div>
+
+    </section>
+
+  
+
+</body>
+</html>
